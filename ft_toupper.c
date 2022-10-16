@@ -6,11 +6,13 @@
 /*   By: wremelli <nremelli@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/19 18:22:04 by wremelli          #+#    #+#             */
-/*   Updated: 2022/10/14 17:23:42 by wremelli         ###   ########.fr       */
+/*   Updated: 2022/10/16 17:13:21 by wremelli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	ft_toupper(int c)
+#include "libft.h"
+
+int	ft_toupper(int c)
 {
 	if (c >= 'a' && c <= 'z')
 		c -= 32;

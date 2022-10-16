@@ -6,11 +6,13 @@
 /*   By: wremelli <nremelli@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/19 18:22:08 by wremelli          #+#    #+#             */
-/*   Updated: 2022/10/14 17:22:22 by wremelli         ###   ########.fr       */
+/*   Updated: 2022/10/16 17:13:13 by wremelli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	ft_tolower(int c)
+#include "libft.h"
+
+int	ft_tolower(int c)
 {
 	if (c >= 'A' && c <= 'Z')
 		c += 32;
