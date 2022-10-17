@@ -24,7 +24,7 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	while (i < n)
 	{
 		if (haystack[i] == needle)
-			return ((void *) haystack + 1);
+			return ((void *)& haystack[i]);
 		i++;
 	}
 	return (NULL);
